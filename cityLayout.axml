@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Taipei"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:gravity="clip_vertical" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="99.5dp"
+        android:id="@+id/tableRow1">
+        <ImageView
+            android:src="@drawable/taipei1"
+            android:id="@+id/imageView1"
+            android:layout_width="135.5dp"
+            android:layout_height="108.5dp" />
+        <View
+            android:id="@+id/view1"
+            android:layout_width="6.5dp" />
+        <ImageView
+            android:src="@drawable/xinb"
+            android:id="@+id/imageView2"
+            android:layout_height="105.5dp"
+            android:layout_width="132.5dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="82.0dp"
+        android:id="@+id/tableRow2">
+        <ImageView
+            android:src="@drawable/taiwan_street_food_t658"
+            android:id="@+id/imageView3"
+            android:layout_width="135.5dp"
+            android:layout_height="80.0dp" />
+        <View
+            android:id="@+id/view2"
+            android:layout_width="6.5dp"
+            android:layout_height="75.0dp" />
+        <ImageView
+            android:src="@drawable/food2"
+            android:id="@+id/imageView4"
+            android:layout_width="133.5dp"
+            android:layout_height="78.5dp"
+            android:scaleType="fitXY" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="383.0dp"
+        android:layout_height="81.5dp"
+        android:id="@+id/tableRow3">
+        <ImageView
+            android:src="@drawable/food5"
+            android:id="@+id/imageView5"
+            android:layout_width="136.5dp"
+            android:layout_height="77.5dp"
+            android:scaleType="fitCenter" />
+        <ImageView
+            android:src="@drawable/food1"
+            android:id="@+id/imageView6"
+            android:layout_width="135.5dp"
+            android:layout_height="76.0dp"
+            android:scaleType="fitXY" />
+    </TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="back" />
+</LinearLayout>

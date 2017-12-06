@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="NEW YORK "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="34.5dp"
+        android:id="@+id/textView1" />
+    <TableRow
+        android:layout_width="384.0dp"
+        android:layout_height="81.0dp"
+        android:id="@+id/tableRow1">
+        <ImageView
+            android:src="@drawable/nyapplestor"
+            android:id="@+id/imageView1"
+            android:layout_width="148.5dp"
+            android:layout_height="81.5dp"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:src="@drawable/nny"
+            android:id="@+id/imageView2"
+            android:layout_height="80.5dp"
+            android:layout_width="161.0dp"
+            android:scaleType="centerInside" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="103.5dp"
+        android:id="@+id/tableRow2">
+        <ImageView
+            android:src="@drawable/nymcdonalds"
+            android:id="@+id/imageView3"
+            android:layout_width="150.5dp"
+            android:layout_height="86.0dp"
+            android:scaleType="fitCenter" />
+        <ImageView
+            android:src="@drawable/nytower"
+            android:id="@+id/imageView4"
+            android:layout_height="85.0dp"
+            android:layout_width="163.0dp"
+            android:scaleType="fitXY" />
+    </TableRow>
+    <ImageView
+        android:src="@drawable/nycow"
+        android:layout_width="159.5dp"
+        android:layout_height="80.5dp"
+        android:id="@+id/imageView5"
+        android:scaleType="fitXY" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="back" />
+</LinearLayout>
